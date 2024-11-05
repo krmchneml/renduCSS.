@@ -1,0 +1,42 @@
+.mainlogo {
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+}
+
+.textfirst {
+    border: rgb(134, 30, 30) solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 482px;
+}
+
+#firstpic {
+    display: flex;
+    height: 178 px;
+    width: 32vh;
+    border-radius: 3px;
+
+}
+
+button {
+    display: flex;
+}
+
+.barrenav {
+    font-family: sans-serif;
+    display: flex;
+    margin: 20px;
+    border: red solid 2px;
+    flex-direction: row;
+    background-color: rgb(91, 117, 151);
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    border: red solid 2px;
+}
