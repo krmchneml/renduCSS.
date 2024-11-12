@@ -61,7 +61,8 @@ header {
     background-size: cover;
     background-origin: content-box;
 }
-#header-produit{
+
+#header-produit {
     width: 100%;
     height: 90vh;
     background-image: url("Images/david.jpg");
@@ -69,6 +70,7 @@ header {
     background-size: cover;
     background-origin: content-box;
 }
+
 /*
 .divtext1stbox {
     margin-left: 100px;
@@ -115,29 +117,38 @@ a {
 #logomain {
     width: 70px;
     height: 70px;
-    
+
 }
 
 .boxbelownav {
-   text-align: center;
-   padding: 200px;
+    text-align: center;
+    padding: 200px;
 
 }
 
-#firstboxbutton {}
+#davidspen {
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    font-family: "Dancing Script", cursive;
+    padding: 20px;
+    margin: 0;
+    margin-top: -4px;
+    font-size: 23px;
+}
 
-.parent{
+.parent {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.enfant{
-    border: 1px red solid;
-}
-.enfant img{
+
+.enfant {}
+
+.enfant img {
     width: 350px;
     height: auto;
-    
+
 
 }
 
@@ -145,3 +156,78 @@ main h2 {
     display: flex;
     justify-content: center;
 }
+
+.divtext1stbox {
+    color: burlywood;
+}
+
+.parentproduit {
+    width: 230vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+#h3sec1parent {
+    height: 20px;
+    width: 400px;
+}
+
+.sec1parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#imgsec1 {
+    height: 25%;
+    width: 25%;
+}
+
+#gammes {
+    background-color: rgb(204, 195, 182);
+    padding: 30px;
+    margin: 0;
+}
+
+.divtext1stbox {
+    font-family: "Dancing Script", cursive;
+}
+
+#firstboxbutton {
+    background-color: cornflowerblue;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 6px 4px 11px #c8935f;
+}
+
+#firstboxbutton:hover {
+    background-color: rgba(245, 245, 220, 0.663);
+}
+
+a {
+    text-decoration: none;
+}
+
+#h2firstindex {
+    color: #571a90;
+}
+
+#buttonprice {
+    background-color: #d0d0ff;
+    font-family: "Dancing Script", serif;
+    border-radius: 20px;
+    padding: 20px;
+    width: 26vw;
+    margin-left: -4px;
+}
+
+#buttonprice:hover {
+    background-color: rgb(117, 113, 207);
+    box-shadow: 6px 3px 11px rgb(0, 0, 0);
+}
+
